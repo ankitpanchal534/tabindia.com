@@ -1,0 +1,10 @@
+.navbar{
+    /* background-color: #FFDA00; */
+    background: linear-gradient(to right, #FFDA00 50%, black 0%)
+}
+
+@media screen and (max-width:600px) {
+   .navbar{
+    background: black;
+} 
+}
