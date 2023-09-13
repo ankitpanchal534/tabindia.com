@@ -1,0 +1,5 @@
+.slick-next:before, .slick-prev:before{
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+}

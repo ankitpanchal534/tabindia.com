@@ -11,6 +11,7 @@ export default function CustomCarousel() {
     <Carousel
     autoPlay
     showThumbs={false}
+    emulateTouch
     swipeable={true}
     >
         <img src="/1 (1).jpg" style={{minHeight:"150px"}}/>

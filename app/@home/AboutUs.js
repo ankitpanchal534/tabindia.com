@@ -57,7 +57,7 @@ export default function AboutUs() {
                                 <Typography fontWeight={'bold'}>About Us</Typography>
                             </Grid>
                             <Grid item container>
-                                <Typography fontSize={"7vmin"} lineHeight={1} fontWeight={700}>Reliable & Cost Efficient Consulting</Typography>
+                                <Typography sx={{fontSize:{xs:22,xl:40,md:40,sm:35,lg:40}}} lineHeight={1} fontWeight={700}>Reliable & Cost Efficient Consulting</Typography>
                             </Grid>
                             <Grid item container gap={2}>
                                 <Typography sx={styles.description}>

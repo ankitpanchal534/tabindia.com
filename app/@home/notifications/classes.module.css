@@ -1,0 +1,41 @@
+.notifications_area{
+    height: 390px;
+    overflow-x:hidden ;
+    overflow-y: scroll;
+    /* animation: marquee 10s linear infinite; */
+}
+
+.marquee{
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+}
+.marquee:hover{
+    animation-play-state: paused;
+}
+
+@keyframes marquee{
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -100%;
+    }
+  }
+
+
+  .ques_div{
+    background: #EEEEEE;
+    padding: 24px;
+    color: #184341;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .ans_div{
+     cursor: pointer;
+     transition: height 200ms;
+
+    }
+  

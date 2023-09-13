@@ -20,8 +20,6 @@ export default function HeaderLinks() {
     ]
 
     return (
-        <Container maxWidth="xl">
-
             <Grid container p={2}  >
                 <Grid container item xs={2} md={1} sm={1} lg={1}  >
                     <img src='/logo.png' height={60} width={60} alt='logo' style={{ objectFit: 'contain' }} />
@@ -32,6 +30,5 @@ export default function HeaderLinks() {
                     }
                 </Grid>
             </Grid>
-        </Container>
-    )
+       )
 }

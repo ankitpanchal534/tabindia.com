@@ -44,8 +44,8 @@ export default function OurServices() {
   ]
 
   return (
-    <Grid container mt={2} pb={7} style={{background:'#F7F2F9'}} >
-      <Container maxWidth="xl" sx={{ padding: '1vw', }}>
+    <Grid container mt={2}  style={{background:'#F7F2F9',padding: '2vw',}} >
+      {/* <Container maxWidth="xl" sx={{ padding: '1vw', }}> */}
         <Grid container justifyContent={'center'}>
           <Grid item sx={{ padding: '2vw', textAlign: 'center' }} >
             <h3 ># Our Tools</h3>
@@ -53,7 +53,7 @@ export default function OurServices() {
 
           </Grid>
         </Grid>
-        <Grid container justifyContent={'space-between'}  gap={'2vh'} flexWrap={'wrap'} p={1}>
+        <Grid container justifyContent={'space-between'}  gap={'1.5vh'} flexWrap={'wrap'} p={1}>
           {
             services.map((item) => <Card key={item.id} sx={{background:'white',padding:'10px',width:"30vmax",flexGrow:1,maxWidth:180,padding:'1vw',borderRadius:'15px',boxShadow:'0px 0px 24px -10px rgba(98, 97, 97, 0.50)',color:'#0D6EFD',}} >
               <Grid container gap={2} >
@@ -68,7 +68,7 @@ export default function OurServices() {
             </Card>)
           }
         </Grid>
-      </Container>
+      {/* </Container> */}
     </Grid>
   )
 }
