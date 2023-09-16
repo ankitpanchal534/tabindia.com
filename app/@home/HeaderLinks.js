@@ -20,7 +20,7 @@ export default function HeaderLinks() {
     ]
 
     return (
-            <Grid container p={2}  >
+            <Grid container p={2} sx={{display:{xs:'none',sm:'none',md:'flex',lg:'flex'}}} >
                 <Grid container item xs={2} md={1} sm={1} lg={1}  >
                     <img src='/logo.png' height={60} width={60} alt='logo' style={{ objectFit: 'contain' }} />
                 </Grid>

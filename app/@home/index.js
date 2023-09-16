@@ -16,28 +16,39 @@ import Faq from './notifications/Faq'
 import TestimonialsSection from './testimonials/TestimonialsCarousel'
 import StayInTouch from '../@home/footer/StayInTouch'
 import Footer from './footer/Footer'
+import FloatingButtons from './FloatingButtons'
+import TelegramFloatingButton from './TelegramFloatingButton'
+import FloatingEnquiryForm from './FloatingEnquiryForm'
+
+
+
 export default function index() {
- 
+
 
   return (
     <Grid container justifyContent={'center'}>
 
       <Navbar />
       <HeaderLinks />
-    <Container maxWidth="xl" style={{margin:0,padding:0,}}>
-      <CustomCarousel />
-      <AboutUs />
-      <DownloadSection />
-      <PricingSection />
-      <OurServices />
-      <GuaranteedSuccess />
-      <StateWiseCounselling />
-      <NotificationsSection />
-      <Faq />
-      <TestimonialsSection />
-      <StayInTouch />
-      <Footer />
-    </Container>
+      <Container maxWidth="xl" style={{ margin: 0, padding: 0, }}>
+        <CustomCarousel />
+        <AboutUs />
+        <DownloadSection />
+        <PricingSection />
+        <OurServices />
+        <GuaranteedSuccess />
+        <StateWiseCounselling />
+        <NotificationsSection />
+        <Faq />
+        <TestimonialsSection />
+        <StayInTouch />
+        <Footer />
+      </Container>
+      <Grid item container style={{ position: 'fixed', left: 0, bottom: 0 }}>
+        <FloatingButtons />
+        <TelegramFloatingButton />
+        <FloatingEnquiryForm />
+      </Grid>
     </Grid>
   )
 }

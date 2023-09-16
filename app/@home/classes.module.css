@@ -34,3 +34,18 @@
     align-items: center;
     border-radius: 0px
 }
+
+.enquiry_btn {
+    background-color: #ffda00;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px 10px 0px 0px;
+    transform: rotate(-90deg);
+    outline: none;
+    border: none;
+    padding: 10px 13px; 
+    position:fixed;
+    right: -36px;
+    top: 30%;
+
+}

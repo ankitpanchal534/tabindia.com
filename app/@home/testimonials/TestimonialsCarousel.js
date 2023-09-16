@@ -38,15 +38,20 @@ export default function Faq() {
                     <img src='/line.png' alt="line" />
                 </Grid>
             </Grid>
-            <div style={{ width: '90%', overflow: 'hidden', padding: '4vw',paddingTop:'10px' }}>
+            <div style={{ width: '90%', overflow: 'hidden', padding: '4vw', paddingTop: '10px' }}>
                 <Slider {...settings} >
 
                     <div className={classes.testimonial_wrapper}>
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/9.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
-                            <div style={{width:'100%'}}>
+                            <div style={{ width: '100%' }}>
                                 <p>
                                     "As a guardian, I was initially hesitant to entrust my child's future to an
                                     online counseling service. However, after working with Tab India website for
@@ -59,8 +64,13 @@ export default function Faq() {
                             </div>
                         </div>
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/2.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -96,8 +106,13 @@ export default function Faq() {
                     <div className={classes.testimonial_wrapper}>
 
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/3.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -111,8 +126,13 @@ export default function Faq() {
                             </div>
                         </div>
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/4.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -147,8 +167,13 @@ export default function Faq() {
                     <div className={classes.testimonial_wrapper}>
 
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/5.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -160,8 +185,13 @@ export default function Faq() {
                             </div>
                         </div>
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/6.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -196,8 +226,13 @@ export default function Faq() {
                     <div className={classes.testimonial_wrapper}>
 
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/7.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
@@ -212,8 +247,13 @@ export default function Faq() {
                             </div>
                         </div>
                         <div className={classes.testimonial_div}>
-                            <div style={{display:'flex',justifyContent:'center'}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', height: 130, width: 150, overflow: 'hidden', position: 'relative' }}>
+                                <div style={{ width: 80, height: 90,borderRadius:"100%", overflow: 'hidden', position: 'absolute', top:8, left: 20,display:'flex',justifyContent:'center' }}>
+                                    <img src='/users/8.jpg'  style={{objectFit:'contain'}} alt="users image" />
+                                </div>
+                                <div style={{ width: 120, height: 130, overflow: 'hidden', position: 'absolute', top: 0, left: 0 }}>
                                 <img src='/testimonials_div.png' alt="testimonials_div.pic" height={130} width={120} style={{ filter: `drop-shadow('0px 2px 6px lightgray')` }} />
+                                </div>
                             </div>
                             <div style={{ width: '100%' }}>
                                 <p>
