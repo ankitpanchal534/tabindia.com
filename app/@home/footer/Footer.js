@@ -96,8 +96,8 @@ export default function Footer() {
       </Grid>
       </Grid>
       <Grid item container style={{background:'#4A1E75',color:'white',}} justifyContent={'center'} padding={'30px 0px'}>
-      <hr style={{width:'100%',opacity:0.4}}/>
-        <div >Powered By <a  href="#">TAB INDIA</a> © 2023</div>
+      <hr style={{width:'100%',opacity:0.4,border:'none',borderBottom:'1px dotted lightgray'}}/>
+        <div style={{fontSize:14,marginTop:7}}>Powered By <a  href="#">TAB INDIA</a> © 2023</div>
       </Grid>
      
     </Grid>

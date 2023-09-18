@@ -1,5 +1,9 @@
 import ThemeRegistry from "./ThemeRegistery";
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
+
+config.autoAddCss = false
 export default function RootLayout(props) {
   const { children } = props;
   return (
@@ -19,6 +23,7 @@ export default function RootLayout(props) {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
       </head>
       <body>

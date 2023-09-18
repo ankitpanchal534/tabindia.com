@@ -53,8 +53,9 @@ export default function FloatingEnquiryForm() {
                     <Grid container justifyContent={'center'} alignContent={'start'}
                         style={{ background: '#4A1E75',  borderRadius: '50px 0px 50px 0px',
                         height:'100%',width:'100%',
-                        overflowX:'hidden',
-                        overflowY:'scroll', }}  p={2}
+                        // overflowX:'hidden',
+                        // overflowY:'scroll',
+                     }}  p={2}
                         className='animate__animated  animate__fadeInDownBig'
                     >
                         <Grid item container xs={12} lg={9} sm={12} md={9} justifyContent={'center'} gap={2} mb={6}>
